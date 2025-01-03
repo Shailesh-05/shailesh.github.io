@@ -35,7 +35,8 @@ sections:
       title: '📚 My Current Focus'
       subtitle: ''
       text: |-
-         I'm a Machine Learning Developer at Synapsis Medical Technologies Ltd. focussing on developing a Real-Time Multi-Modal Pipeline for Facial Emotion Recognition and Health Insights. Parallely, I am working as an external research collobarator for ServiceNow in the Elementals Lab based on BigInsights: A Scalable Comprehensive LLM-driven Data Analytics Benchmark.
+
+         I'm a Machine Learning Developer at Synapsis Medical Technologies Ltd. focussing on developing a Real-Time Multi-Modal Pipeline for Facial Emotion Recognition and Health Insights. Parallely, I am working as an external research collobarator for ServiceNow in the Elementals Lab based on BigInsights, A Scalable Comprehensive LLM-driven Data Analytics Benchmark.
         
         Please reach out to discuss, meet or collaborate 😃
     design:
