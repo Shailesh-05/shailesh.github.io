@@ -72,19 +72,33 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 1 
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: Recent News
+  #     subtitle: ''
+  #     count: 5
+  #     filters:
+  #       folders: ['news']
+  #     sort_by: 'date'
+  #     sort_ascending: false
+  #   design:
+  #     view: list
+  #     columns: "1"
   - block: collection
     id: news
     content:
       title: Recent News
-      subtitle: ''
       count: 5
-      filters:
-        folders: ['news']
-      sort_by: 'date'
-      sort_ascending: false
+      # Important: This tells Hugo where to find the content
+      pages_type: news
+      # Specify the folder to pull content from
+      folder: news
     design:
+      # List view for bullet points
       view: list
       columns: "1"
+
     #   # Page type to display. E.g. post, talk, publication...
     #   page_type: post
     #   # Choose how many pages you would like to display (0 = all pages)
