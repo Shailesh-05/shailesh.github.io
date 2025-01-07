@@ -89,13 +89,20 @@ sections:
     id: news
     content:
       title: Recent News
+      subtitle: ''
+      text: ''
+      # Only show posts from news folder
+      pages_type: post
+      # Important filters to show only news items
+      filters:
+        folders: ['news']
+        category: "news"
+        tag: ""
+        publication_type: ""
       count: 5
-      # Important: This tells Hugo where to find the content
-      pages_type: news
-      # Specify the folder to pull content from
-      folder: news
+      offset: 0
     design:
-      # List view for bullet points
+      # Changes the view to simple list
       view: list
       columns: "1"
 

@@ -1,7 +1,8 @@
 ---
 title: Recent News
 date: '2024-01-07'
-type: news
+type: post
+category: news
 ---
 
 * [Jan '24] Started working under Prof. Scott Sanner on building Embodied AI system.
